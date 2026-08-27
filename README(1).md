@@ -40,3 +40,6 @@ This problem strictly requires the use of extended sequence unpacking (PEP 3132)
    - `*middle` uses the splat operator (`*`) to greedily capture all intermediate elements into a new list.
 2. **Reconstruction:** A new list is constructed by placing `last` at the beginning, followed by the unpacked `middle` elements, and appending `first` at the end: `[last, *middle, first]`.
 3. This sequence unpacking guarantees that the original list is not modified, fulfilling the requirement to return a brand new list.
+
+README file Version History:
+August 27, 2026 - Initial README output uploaded.
